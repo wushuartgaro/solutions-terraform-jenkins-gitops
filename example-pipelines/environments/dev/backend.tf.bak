@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "external-poc-ifast-gke-tfstate"
+    bucket = "PROJECT_ID-tfstate"
     prefix = "env/dev"
   }
 }
